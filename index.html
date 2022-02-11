@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas Raiz</title>
+</head>
+
+<body>
+    <div class="cnt">
+        <header>
+            <h1>Conversor de Moedas</h1>
+        </header>
+        
+            <div class="container-conversor">
+                <div class="input-valor">
+                    <label for="inputValor">Valor</label>
+                    <input type="number" name="valor" id="inputValor" placeholder="informe o valor " value="1">
+                </div>
+
+                <div class="form-moeda1">
+                    <label for="formMoeda1">Converter de</label>
+                    <form id="formMoeda1">
+                        <input type="radio" id="USD1" name="moeda1" value="USD">
+                        <label for="USD1">Dólar Americano (USD)</label><br>
+                        <input type="radio" id="BRL1" name="moeda1" value="BRL">
+                        <label for="BRL1">Real (BRL)</label><br>
+                        <input type="radio" id="EUR1" name="moeda1" value="EUR" checked>
+                        <label for="EUR1">Euro (EUR)</label>
+                    </form>
+                </div>
+
+                <div class="form-moeda2">
+                    <label for="formMoeda2">Para</label>
+                    <form id="formMoeda2">
+                        <input type="radio" id="USD2" name="moeda2" value="USD" checked>
+                        <label for="USD2">Dólar Americano (USD)</label><br>
+                        <input type="radio" id="BRL2" name="moeda2" value="BRL">
+                        <label for="BRL2">Real (BRL)</label><br>
+                        <input type="radio" id="EUR2" name="moeda2" value="EUR">
+                        <label for="EUR2">Euro (EUR)</label>
+                    </form>
+                </div>
+                <button id="btn-converter">Converter</button>
+            </div>
+
+            <div class="resultado-conversao">
+                <header id="titulo-resultado">
+                    <h1>Resultado da Conversão</h1>
+                </header>
+                <h2 id="titulo-conversao"></h2>
+                <h2 id="resultado-conversao"></h2>
+                <div class="container-span-resultado">
+                    <span id="span-valor-convertido"></span>
+                    <span id="span-resultado-conversao"></span>
+                    <span id="span-taxa"></span>
+                    <span id="span-data-cotacao"></span>
+                </div>
+
+            </div>
+        
+        <footer>Desenvolvido por <i>swcamelo & jwcamelo</i></footer>
+    </div>
+<script src="main.js"></script>
+</body>
+
+
+</html>

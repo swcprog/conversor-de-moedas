@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+span {
+    display: block;
+}
+
+header {
+    text-align: center;
+}
+
+label {
+    margin: 15px;
+}
+
+*{
+ box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/6302897.jpg);
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #443b3b;
+    font-size: 16pt;
+    font-family: Comforter;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.input-valor {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-moeda1 {
+    padding: 10px;
+    box-shadow: 2px 2px 2px;
+    background-color: rgba(228, 217, 217, 0.514);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-moeda2 {
+    padding: 10px;
+    box-shadow: 2px 2px 2px;
+    background-color: rgba(228, 217, 217, 0.514);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-conversor {
+    padding: 25px;
+    margin: auto;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(129, 120, 120, 0.027);
+    box-shadow: 2px 2px 2px;
+}
+
+.resultado-conversao {
+    margin: auto;
+    width: 750px;
+    text-align: center;
+}
+
+.container-span-resultado {
+    margin: auto;
+    width: max-content;
+    text-align: left;
+}
+
+#btn-converter {
+    height: min-content;
+}
+
+input{
+    outline: none;
+}
+
+button{
+    border: none;
+    font-family: cursive;
+    padding: 8px;
+    box-shadow: 0px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #443B3B;
+}
+
+button:hover{
+    background-color: #c4c2c2;
+    box-shadow: 0px 5px 2px 1px rgba(0, 0, 0, 0.4)
+}
+
+button:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.ctn{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    align-items: flex-end;
+}
