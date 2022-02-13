@@ -1,3 +1,3 @@
 # Conversor de Moedas
-Conversor de moedas feito em colaboração com meu irmão, Jhonatan Wesley.
-Por algum motivo o projeto é melhor executado na <a href="https://gallant-mahavira-241512.netlify.app/">Netfly</a>
+Conversor de moedas feito para fins didáticos em colaboração com meu irmão, <a href="https://github.com/jwcamelo">Jhonatan Wesley</a>.
+Veja funcionando em <a href="https://gallant-mahavira-241512.netlify.app/">Netfly</a>
